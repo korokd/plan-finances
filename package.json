@@ -1,0 +1,17 @@
+{
+  "name": "plan-finances",
+  "version": "0.1.0",
+  "description": "Personal finance planning",
+  "main": "index.html",
+  "author": "Diogo Korok <korokd@protonmail.ch>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "elm-live": "^4.0.2"
+  },
+  "scripts": {
+      "dev": "elm-live src/Main.elm",
+      "test": "elm-test",
+      "build": "elm make src/Main.elm --optimize --output=\"elm.js\""
+  }
+}
