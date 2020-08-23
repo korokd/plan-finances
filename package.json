@@ -12,6 +12,6 @@
   "scripts": {
       "dev": "elm-live src/Main.elm",
       "test": "elm-test",
-      "build": "elm make src/Main.elm --optimize --output=\"elm.js\""
+      "build": "elm make src/Main.elm --optimize"
   }
 }
